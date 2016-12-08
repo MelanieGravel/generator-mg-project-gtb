@@ -1,32 +1,13 @@
 # <%= projectName %>
 
-# Runs with YO Generator dhBoilerplate
+# Runs with YO Generator dhBoilerplate Bootstrap
 
 ```
-              dddddddd
-              d::::::dhhhhhhh
-              d::::::dh:::::h
-              d::::::dh:::::h
-              d:::::d h:::::h
-      ddddddddd:::::d  h::::h hhhhh
-    dd::::::::::::::d  h::::hh:::::hhh
-   d::::::::::::::::d  h::::::::::::::hh
-  d:::::::ddddd:::::d  h:::::::hhh::::::h
-  d::::::d    d:::::d  h::::::h   h::::::h
-  d:::::d     d:::::d  h:::::h     h:::::h
-  d:::::d     d:::::d  h:::::h     h:::::h
-  d:::::d     d:::::d  h:::::h     h:::::h
-  d::::::ddddd::::::dd h:::::h     h:::::h
-   d:::::::::::::::::d h:::::h     h:::::h
-    d:::::::::ddd::::d h:::::h     h:::::h
-     ddddddddd   ddddd hhhhhhh     hhhhhhh
-
-
-   dhBoilerplate made with love & help.
-   ---------------------------------------
-   Author   :   David Hellmann
-   Website  :   https://davidhellmann.com
-   Github   :   https://github.com/davidhellmann/generator-dhBoilerplate
+   dhBoilerplate (with Bootstrap) made with love & help.
+   -------------------------------------------------------------------------------
+   Author            :   David Hellmann, modified by Melanie Gravel
+   Website           :   https://davidhellmann.com
+   Original Github   :   https://github.com/davidhellmann/generator-dhBoilerplate
 ```
 
 
@@ -36,32 +17,9 @@
 
 ## What's inside?
 
-### Sass Functions
-- `borderradius('level-x')` or `br('level-x')`
-- `boxshadow('level-x')` or `bs('level-x')`
-- `color('color-name')` or `c('color-name')`
-- `ease('easing-name')` or `e('easing-name')`
-- `fontfamily('font-name')` or `ff('font-name')` 
-- `space(i)` or `s(i)`  
-- `verticalrhythm(i)` or `vr(i)` 
+### Bootstrap 4
 
-### Sass Mixins
-- `@include center`
-- `@include clearfix`
-- `@include container('full')` ‚full‘ ist optional 
-- `@include cols(i)`
-- `@include filter(filter-name, value%)`
-- `@include fluid-type($properties, $min-vw, $max-vw, $min-value, $max-value)` or `@include ft($properties, $min-vw, $max-vw, $min-value, $max-value)`
-- `@include flexbox('full')` or `@include fb('full')` ‚full‘ is optional
-- `@include flexcols(i)` or `@include fc(i)`
-- `@include fontsize('base', 1)` or `@include fs('base', 1)`
-- `@include gutter(i)`or `@include g(i)`
-- `@include pull(i)`
-- `@include push(i)`
-- `@include valign`
-- `@include visuallyhidden` or `@include vh`
-
-
+[Bootstrap 4 Documentation] (https://v4-alpha.getbootstrap.com/getting-started/introduction/)
 
 ## Install NPM Packages
 

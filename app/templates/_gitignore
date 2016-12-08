@@ -33,29 +33,4 @@ Thumbs.db
 bower/
 node_modules/
 .tmp
-
-<% if (projectUsage == 'Prototyping' ) { %>
 ___dist/
-<% } %>
-
-<% if (projectUsage == 'WordPress' ) { %>
-___dist/*
-!___dist/wp-content/
-___dist/wp-content/*
-!___dist/wp-content/plugins/
-!___dist/wp-content/themes/
-___dist/wp-content/themes/*
-!___dist/wp-content/themes/<%= projectName %>/
-___dist/wp-content/themes/<%= projectName %>/*
-!___dist/wp-content/themes/<%= projectName %>/acf-json/
-<% } %>
-
-<% if (projectUsage == 'Craft CMS' ) { %>
-# Craft CMS
-___dist/config/config.local.php
-___dist/config/license.key
-___dist/craft
-___dist/templates
-___dist/public/uploads
-___dist/public/assets
-<% } %>

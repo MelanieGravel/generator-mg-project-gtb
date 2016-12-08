@@ -41,49 +41,6 @@
         "sprite":           "___dist/assets/images/svg/sprite/"
       }
     }
-    <% } if (projectUsage == 'WordPress' ) { %>
-    "base":                 "___dist/",
-    "markup":               "___dist/wp-content/themes/<%= projectName %>/",
-    "browserSyncDir":       "___dist/wp-content/themes/<%= projectName %>/",
-    "assets":               "___dist/wp-content/themes/<%= projectName %>/assets/",
-    "js":                   "___dist/wp-content/themes/<%= projectName %>/assets/js/",
-    "css":                  "___dist/wp-content/themes/<%= projectName %>/assets/css/",
-    "fonts":                "___dist/wp-content/themes/<%= projectName %>/assets/fonts/",
-    "images": {
-      "base":               "___dist/wp-content/themes/<%= projectName %>/assets/images/",
-      "bitmap": {
-        "base":             "___dist/wp-content/themes/<%= projectName %>/assets/images/bitmap/"
-      },
-      "svg": {
-        "base":             "___dist/wp-content/themes/<%= projectName %>/assets/images/svg/",
-        "single":           "___dist/wp-content/themes/<%= projectName %>/assets/images/svg/single/",
-        "sprite":           "___dist/wp-content/themes/<%= projectName %>/assets/images/svg/sprite/"
-      }
-    }
-    <% } if (projectUsage == 'Craft CMS' ) { %>
-    "base":                 "___dist/public/",
-    <% if (craftHearty) { %>
-    "markup":               "___dist/templates/",
-    <% } else { %>
-    "markup":               "___dist/craft/templates/",
-    <% } %>
-    "browserSyncDir":       "___dist/public/",
-    "assets":               "___dist/public/assets/",
-    "js":                   "___dist/public/assets/js/",
-    "css":                  "___dist/public/assets/css/",
-    "fonts":                "___dist/public/assets/fonts/",
-    "images": {
-      "base":               "___dist/public/assets/images/",
-      "bitmap": {
-        "base":             "___dist/public/assets/images/bitmap/"
-      },
-      "svg": {
-        "base":             "___dist/public/assets/images/svg/",
-        "single":           "___dist/public/assets/images/svg/single/",
-        "sprite":           "___dist/public/assets/images/svg/sprite/"
-      }
-    }
-    <% } %>
   },
 
   "css": {
@@ -135,7 +92,6 @@
       "rgba"
     ]
   },
-
   "minify": {
     "images": {
       "optimizationLevel": 3,
