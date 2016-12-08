@@ -1,17 +1,16 @@
 {
-  "name": "generator-dhboilerplate",
-  "version": "3.1.28",
-  "description": "Boilerplate made by David Hellmann #gulp #npm #craftcms #wordpress #vue #twig",
+  "name": "generator-dhboilerplate-bootstrap",
+  "version": "0.0.1",
+  "description": "Boilerplate made by David Hellmann and modified by Melanie Gravel to use Bootstrap #gulp #npm #twig #bootstrap",
   "license": "MIT",
   "main": "app/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/davidhellmann/generator-dhBoilerplate"
+    "url": "https://github.com/MelanieGravel/generator-dhBoilerplate-bootstrap"
   },
   "author": {
-    "name": "David Hellmann",
-    "email": "davidhellmann.com@gmail.com",
-    "url": "http://davidhellmann.com"
+    "name": "Mélanie Gravel",
+    "email": "melanie082@gmail.com"
   },
   "scripts": {
     "test": "mocha"

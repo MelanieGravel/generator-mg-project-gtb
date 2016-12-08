@@ -1,4 +1,11 @@
-# YO Generator dhBoilerplate
+# YO Generator dhBoilerplate with Bootstrap
+
+##Notes
+
+Modified by Melanie Gravel for prototyping and deployment purpose
+
+##Originally made by...
+
 
 ```
               dddddddd
@@ -26,7 +33,6 @@
    Website  :   https://davidhellmann.com
    Github   :   https://github.com/davidhellmann/generator-dhBoilerplate
 ```
-
 
 ## Intro
 That's my own YO Generator who fits for my own requirements.
