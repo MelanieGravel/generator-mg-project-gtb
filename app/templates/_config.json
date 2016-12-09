@@ -22,7 +22,6 @@
   },
 
   "dist": {
-    <% if (projectUsage == 'Prototyping' ) { %>
     "base":                 "___dist/",
     "markup":               "___dist/",
     "browserSyncDir":       "___dist/",

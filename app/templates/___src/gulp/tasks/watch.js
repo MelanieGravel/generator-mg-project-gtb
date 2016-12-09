@@ -9,10 +9,8 @@ const watchTask = () => {
   gulp.watch(config.src.templates + '**/*.{php,html,twig,rss}', ['templates'])
 
 
-  <% if (projectUsage == 'Prototyping' ) { %>
   // watch JSON
   gulp.watch(config.src.dataDir + '**/*.json', ['templates'])
-  <% } %>
 
   // watch sass
   gulp.watch(config.src.css + '**/*.scss', ['sass']);

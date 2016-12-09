@@ -5,11 +5,6 @@ import browserify from 'browserify';
 import watchify from 'watchify';
 import babelify from 'babelify';
 import merge from 'utils-merge';
-<% if (projectVue == true ) { %>
-import vueify from 'vueify';
-import aliasify from 'aliasify';
-import hmr from 'browserify-hmr';
-<% } %>
 
 //console.log(config.src.js + config.files.jsApp.srcName);
 
@@ -18,21 +13,9 @@ const watchJs = () => {
   const bundler = watchify(
     browserify(config.src.js + config.files.jsApp.srcName, args)
   )
-  <% if (projectVue == true ) { %>
-  .plugin(hmr)
-  <% } %>
   .transform(
     babelify.configure({presets: ['es2015']})
   )
-  <% if (projectVue == true ) { %>
-  .transform(aliasify,{
-    aliases: {
-      "vue": "./node_modules/vue/dist/vue.js"
-    },
-    verbose: true
-  })
-  .transform(vueify)
-  <% } %>
 
   bundleJs(bundler)
 

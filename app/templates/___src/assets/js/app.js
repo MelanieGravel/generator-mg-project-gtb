@@ -13,12 +13,6 @@ if (_debug === true) {
 }
 
 
-// Vue Stuff
-<% if (projectVue == true) { %>
-  import './scripts/vueExamples.js'
-<% } %>
-
-
 // Polyfills
 import 'svgxuse'
 
