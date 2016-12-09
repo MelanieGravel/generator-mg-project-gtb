@@ -4,8 +4,8 @@ import twig from 'gulp-twig'
 import gulpLoadPlugins from 'gulp-load-plugins';
 import errorHandler from '../lib/errorHandler';
 import data from 'gulp-data'
-import fs from 'fs'
-import path from 'path'§
+import fs from 'fs';
+import path from 'path';
 
 const $ = gulpLoadPlugins()
 // Work with multiple Files

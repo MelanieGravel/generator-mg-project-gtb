@@ -1,7 +1,7 @@
 {
-  "name": "generator-dhboilerplate-bootstrap",
+  "name": "generator-mg-bootstrap-twig-project",
   "version": "0.0.1",
-  "description": "Boilerplate made by David Hellmann and modified by Melanie Gravel to use Bootstrap #gulp #npm #twig #bootstrap",
+  "description": "Boilerplate Project with Twig and Bootstrap for prototyping purpose. Branched from dhBoilerplate. #gulp #npm #twig #bootstrap",
   "license": "MIT",
   "main": "app/index.js",
   "repository": {

@@ -188,17 +188,9 @@ const dhBoilerplateBootstrapGenerator = yeoman.generators.Base.extend({
     install() {
         const _self = this;
 
-        // check if yarn is available and use it instead of npm
-        commandExists('yarn', function(err, commandExists) {
-          if(commandExists) {
-            var done = _self.async()
-            _self.spawnCommand('yarn').on('close', done)
-          } else {
-            _self.installDependencies({
-              bower: false,
-              npm: true
-            })
-          }
+        _self.installDependencies({
+          bower: false,
+          npm: true
         })
 
         this.log('Install NPM Modules.')
