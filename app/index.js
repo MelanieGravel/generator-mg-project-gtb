@@ -106,7 +106,7 @@ const dhBoilerplateBootstrapGenerator = yeoman.generators.Base.extend({
         this.directory('___src/_data/',   '___src/_data/')
         this.directory('___src/assets/',    '___src/assets/')
         this.directory('___src/gulp/',      './gulp/')
-        this.directory('___src/templates/prototyping/', '___src/templates/')
+        this.directory('___src/templates/', '___src/templates/')
     },
 
     projectfiles() {
