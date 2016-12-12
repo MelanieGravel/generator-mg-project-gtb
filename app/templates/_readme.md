@@ -107,6 +107,7 @@ gulp minify:images
 
 ```
 
+## Original Developper
 ```
    dhBoilerplate (with Bootstrap) made with love & help.
    -------------------------------------------------------------------------------
@@ -115,7 +116,7 @@ gulp minify:images
    Original Github   :   https://github.com/davidhellmann/generator-dhBoilerplate
 ```
 
-## Thanks to
+### Thanks to
 - webdevs - for so many things: [Website](http://webdevs.xyz)
 - Sascha Fuchs - for help help help: [Website](https://github.com/gisu)
 - Martin Herweg - for help help help: [Website](https://github.com/martinherweg)

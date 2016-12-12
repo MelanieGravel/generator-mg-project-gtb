@@ -1,6 +1,6 @@
 {
   "name": "generator-mg-project-gtb",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Boilerplate Project with Twig and Bootstrap for prototyping purpose. Branched from dhBoilerplate. #gulp #npm #twig #bootstrap",
   "license": "MIT",
   "main": "app/index.js",
