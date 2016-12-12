@@ -1,0 +1,43 @@
+/*
+ * Globals
+ */
+
+.full-page {
+    height: 100%;
+    body {
+        height: 100%;
+        text-align: center;
+    }
+    .main{
+        margin-top:0;
+    }
+    /* Extra markup and styles for table-esque vertical and horizontal centering */
+    .site-wrapper {
+        display: table;
+        width: 100%;
+        height: 100%;
+        /* For at least Firefox */
+        min-height: 100%;
+    }
+    .site-wrapper-inner {
+        display: table-cell;
+        vertical-align: top;
+    }
+    .cover-container {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    /*
+ * Affix and center
+ */
+    @include media-breakpoint-up(md) {
+        /* Start the vertical centering */
+        .site-wrapper-inner {
+            vertical-align: middle;
+        }
+        .mastfoot {
+            position: fixed;
+            bottom: 0;
+        }
+    }
+}

@@ -1,0 +1,72 @@
+/*
+ * Globals
+ */
+
+body {
+    &.main-theme {
+        background-color: $color_primary;
+        color: $color_white;
+        text-shadow: $text_shadow;
+        /*
+         * Base structure
+         */
+        /* Extra markup and styles for table-esque vertical and horizontal centering */
+        .site-wrapper {
+            -webkit-box-shadow: $box_shadow;
+            box-shadow: $box_shadow;
+        }
+        /*
+         * Globals
+         */
+        @include media-breakpoint-up(md) {
+            .main {
+                margin-top: $main_nav_height;
+                margin-bottom: $main_foot_height;
+            }
+            .main-foot {
+                position: fixed;
+                bottom: 0;
+            }
+        }
+        /* Links */
+        a {
+            color: $color_white;
+            &:focus,
+            &:hover {
+                color: $color_white;
+            }
+        }
+        /* Custom default button */
+        .btn-secondary {
+            color: $color_primary;
+            text-shadow: none;
+            /* Prevent inheritance from `body` */
+            background-color: $color_white;
+            border: .05rem solid $color_primary;
+            &:hover,
+            &:focus {
+                color: $color_primary;
+                text-shadow: none;
+                /* Prevent inheritance from `body` */
+                background-color: $color_primary;
+                border: .05rem solid $color_primary;
+            }
+        }
+        .btn-lg {
+            padding: .75rem 1.25rem;
+            font-weight: bold;
+        }
+        .jumbotron {
+            background-color: $color_secondary;
+        }
+        /*
+         * Footer
+         */
+        .main-foot {
+            background-color: $color_primary;
+            bottom: 0;
+            width: 100%;
+            color: rgba(255, 255, 255, 0.5);
+        }
+    }
+}

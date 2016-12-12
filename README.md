@@ -1,43 +1,20 @@
-# YO Generator dhBoilerplate with Bootstrap
+# YO Generator MG Project GTB (Gulp, Twig, Bootstrap)
 
-##Notes
-
-Modified by Melanie Gravel for prototyping and deployment purpose
-
-##Originally made by...
-
-
-```
-   dhBoilerplate (with Bootstrap) made with love & help.
-   -------------------------------------------------------------------------------
-   Author            :   David Hellmann, modified by Melanie Gravel
-   Website           :   https://davidhellmann.com
-   Original Github   :   https://github.com/davidhellmann/generator-dhBoilerplate
-```
+MY LOGO
 
 ## Intro
-That's my own YO Generator who fits for my own requirements.
-Last year I go most of the time with CodeKit and a more oldsql workflow.
-Now, this one is more up to date :)
-
-Big thanks to [Sascha Fuchs](https://github.com/gisu) and his [Kittn](http://kittn.de/) for a lot of help and inspiration.
-Also big thanks to [Martin Herweg](https://github.com/martinherweg) and his [YO Generator](https://www.npmjs.com/package/generator-mh-boilerplate) that help me a lot too.
-And last but not least thanks to all members from our Slack Channel [webdevs](http://webdevs.xyz/) — feel free to join us.
+This Boilerplate, branched from David Hellman's [*dhBoilerplate*](https://github.com/davidhellmann/generator-dhBoilerplate), was modifified for prototyping purpose and a default integration of Bootstrap 4.
 
 
-## What is inside
-### This three scenarios are covered by the generator:
-- Prototyping (with Twig)
-- WordPress with a basic Starter Kit (WordPress itself must be Installed by Hand after the first `gulp init`)
-- Craft CMS with a basic Starter Kit (Craft CMS itself must be Installed by Hand after the first `gulp init`)
+## What's inside?
 
 ### Bootstrap 4
 
-[Bootstrap 4 Documentation] (https://v4-alpha.getbootstrap.com/getting-started/introduction/)
+[Bootstrap 4 Documentation](https://v4-alpha.getbootstrap.com/getting-started/introduction/)
 
 ## Install
 ```
-$ npm install -g generator-dhboilerplate
+$ npm install -g generator-mg-project-gtb
 ```
 
 
@@ -45,9 +22,9 @@ $ npm install -g generator-dhboilerplate
 Jump in your Working Directory and type:
 
 ```
-yo dhboilerplate
+yo mg-project-gtb
 ```
-Run through the options. When you're done grab a coffee. The node module installation take a while :)
+Run through the options. When you're done grab a coffee. The node module installation take a while. :)
 
 
 ## Commands
@@ -101,6 +78,16 @@ gulp minify:js
 gulp minify:sass
 gulp minify:images
 
+```
+
+HIS LOGO
+
+```
+   dhBoilerplate (with Bootstrap) made with love & help.
+   -------------------------------------------------------------------------------
+   Author            :   David Hellmann
+   Website           :   https://davidhellmann.com
+   Original Github   :   https://github.com/davidhellmann/generator-dhBoilerplate
 ```
 
 ## Thanks to

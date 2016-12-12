@@ -1,6 +1,10 @@
 {
-  "index": {
-    "headline": "Yeah, check: _data/global.json",
-    "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis lectus metus, at posuere neque. Sed pharetra nibh eget orci convallis at posuere leo convallis. Sed blandit augue vitae augue scelerisque bibendum. Vivamus sit amet libero turpis, non venenatis urna. In blandit, odio convallis suscipit venenatis, ante ipsum cursus augue."
+  "demo_cover": {
+    "headline": "Cover your page.",
+    "intro": "Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own."
+  },
+  "info_footer": {
+    "text": "Cover template for <a href=\"https://getbootstrap.com\">Bootstrap</a>, by <a href=\"https://twitter.com/mdo\">@mdo</a>."
   }
 }
+ 

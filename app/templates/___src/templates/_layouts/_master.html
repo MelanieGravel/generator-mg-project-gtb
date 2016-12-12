@@ -1,0 +1,41 @@
+{#
+  Master Layout
+  --------------------------------------------------
+
+  This i the basic layout. Feel free to modify
+#}
+
+
+{% extends "_core.html" %}
+
+
+{% block coreContent %}
+
+    <div>
+        <header>
+            {% block appHeader %} 
+                Header 
+            {% endblock %}
+        </header>
+
+        <main class="main">
+            {% block appContent %} 
+                Content 
+            {% endblock %}
+        </main>
+
+        <footer class="container">
+            {% block appFooter %} 
+                Footer 
+            {% endblock %}
+        </footer>
+
+    </div>
+    
+{% endblock %}
+
+
+{# Include Scripts, Fonts, Google Analyticy #}
+{% include '../_partials/_footer/_scripts.html' %}
+</body>
+</html>

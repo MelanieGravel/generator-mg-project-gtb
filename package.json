@@ -1,14 +1,14 @@
 {
-  "name": "generator-mg-bootstrap-twig-project",
+  "name": "generator-mg-project-gtb",
   "version": "0.0.1",
   "description": "Boilerplate Project with Twig and Bootstrap for prototyping purpose. Branched from dhBoilerplate. #gulp #npm #twig #bootstrap",
   "license": "MIT",
   "main": "app/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MelanieGravel/generator-dhBoilerplate-bootstrap"
+    "url": "https://github.com/MelanieGravel/generator-mg-project-gtb"
   },
-  "author": {
+  "author": {  
     "name": "Mélanie Gravel",
     "email": "melanie082@gmail.com"
   },

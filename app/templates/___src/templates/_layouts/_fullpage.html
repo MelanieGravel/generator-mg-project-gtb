@@ -1,0 +1,31 @@
+{#
+  Full Page Layout
+  --------------------------------------------------
+
+  This i the basic layout. Feel free to modify
+#}
+
+{% extends "_core.html" %}
+{% set htmlClass = "full-page" %}
+
+{% block coreContent %}
+<div class="site-wrapper">
+
+    <div class="site-wrapper-inner">
+
+            <header>
+                {% block appNav %} Nav {% endblock %} {% block appHeader %} Header {% endblock %}
+            </header>
+
+            <main class="main">
+                {% block appContent %} Content {% endblock %}
+            </main>
+
+            <footer>
+                {% block appFooter %} Footer {% endblock %}
+            </footer>
+
+    </div>
+
+</div>
+{% endblock %}

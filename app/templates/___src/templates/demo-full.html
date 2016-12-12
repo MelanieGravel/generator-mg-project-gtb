@@ -1,0 +1,39 @@
+{#
+  Home Page
+  --------------------------------------------------
+
+  This is your Homepage!
+#}
+
+{% extends "_layouts/_fullpage.html" %}
+{% set bodyID = "demoFull" %}
+{% set bodyClass = "demo-full main-theme" %}
+
+{% block appTitle %}
+  Home
+{% endblock %}
+
+{% block appNav %}
+    {% include '_partials/_global/_nav.html' %}
+{% endblock %}
+
+{% block appHeader %}
+
+{% endblock %}
+
+{% block appContent %}
+
+<div class="container">
+    <h1 class="cover-heading">{{ demo_cover.headline }}</h1>
+    <p class="lead">{{ demo_cover.intro }}</p>
+    <p class="lead">
+        <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
+    </p>
+</div>
+{% endblock %}
+
+
+{% block appFooter %}
+    {% include '_partials/_global/_footer.html' %}
+{% endblock %}
+

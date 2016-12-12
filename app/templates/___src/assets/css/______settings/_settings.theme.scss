@@ -1,0 +1,16 @@
+//Colors
+$color_primary: #333;
+$color_secondary: #404040;
+$color_white: #fff;
+
+//Shadows
+$text_shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+$box_shadow: inset $text_shadow;
+
+//Gradients and Alphas
+$color_rgba_mid_white_50: rgba(255, 255, 255, .5);
+$color_rgba_mid_white_25: rgba(255, 255, 255, .25);
+
+//Measurements
+$main_nav_height: 70px;
+$main_foot_height: 40px;

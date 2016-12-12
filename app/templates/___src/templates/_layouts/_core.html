@@ -1,8 +1,6 @@
 {#
-  Master Layout
+  Core Layout
   --------------------------------------------------
-
-  This i the basic layout. Feel free to modify
 #}
 
 
@@ -11,7 +9,7 @@
 
 
 <!DOCTYPE html>
-<html class="no-js" lang="de">
+<html class="no-js {% if htmlClass is defined %}{{ htmlClass }}{% endif %}" lang="en-US">
 <head>
   <title>{% block appTitle %}DEVELOPMENT &mdash; dhBoilerplate{% endblock %}</title>
 
@@ -28,31 +26,14 @@
   {% include '../_partials/_header/_favicons.html' %}
 
 </head>
-<body id="home" {% if bodyClass is defined %}class="{{ bodyClass }}"{% endif %}>
+<body 
+    {% if bodyID is defined %}id="{{ bodyID }}"{% endif %} 
+    {% if bodyClass is defined %}class="{{ bodyClass }}"{% endif %}
+>
 
-<div class="c-appWrapper">
-
-  <header class="c-appHeader">
-  {% block appHeader %}
-    Header
-  {% endblock %}
-  </header>
-
-  <div class="c-appContent">
-  {% block appContent %}
+  {% block coreContent %}
     Content
   {% endblock %}
-  </div>
-
-  <footer class="c-appFooter">
-  {% block appFooter %}
-    Footer
-  {% endblock %}
-  </footer>
-
-</div>
-
-{# Include Scripts, Fonts, Google Analyticy #}
-{% include '../_partials/_footer/_scripts.html' %}
+  
 </body>
 </html>

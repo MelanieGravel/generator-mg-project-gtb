@@ -1,14 +1,8 @@
 # <%= projectName %>
 
-# Runs with YO Generator dhBoilerplate Bootstrap
+# Runs with YO Generator MG Project GTB (Gulp, Twig, Bootstrap)
 
-```
-   dhBoilerplate (with Bootstrap) made with love & help.
-   -------------------------------------------------------------------------------
-   Author            :   David Hellmann, modified by Melanie Gravel
-   Website           :   https://davidhellmann.com
-   Original Github   :   https://github.com/davidhellmann/generator-dhBoilerplate
-```
+MY LOGO
 
 
 ## Description
@@ -19,7 +13,7 @@
 
 ### Bootstrap 4
 
-[Bootstrap 4 Documentation] (https://v4-alpha.getbootstrap.com/getting-started/introduction/)
+[Bootstrap 4 Documentation](https://v4-alpha.getbootstrap.com/getting-started/introduction/)
 
 ## Install NPM Packages
 
@@ -84,6 +78,15 @@ gulp minify:images
 
 ```
 
+HIS LOGO
+
+```
+   dhBoilerplate (with Bootstrap) made with love & help.
+   -------------------------------------------------------------------------------
+   Author            :   David Hellmann
+   Website           :   https://davidhellmann.com
+   Original Github   :   https://github.com/davidhellmann/generator-dhBoilerplate
+```
 
 ## Thanks to
 - webdevs - for so many things: [Website](http://webdevs.xyz)
@@ -94,3 +97,5 @@ gulp minify:images
 - Hugo Giraudel & Eduardo Bouças - for include media: [Website](http://include-media.com/)
 - @LukyVj - for family.scss: [Website](http://lukyvj.github.io/family.scss/)
 - inuitcss - for some snippets and inspiration: [website](https://github.com/inuitcss/inuitcss)
+
+[![bitHound Overall Score](https://www.bithound.io/github/davidhellmann/generator-dhBoilerplate/badges/score.svg)](https://www.bithound.io/github/davidhellmann/generator-dhBoilerplate)
