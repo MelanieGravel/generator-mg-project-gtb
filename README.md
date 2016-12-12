@@ -111,8 +111,6 @@ gulp minify:images
 
 ```
 
-HIS LOGO
-
 ```
    dhBoilerplate (with Bootstrap) made with love & help.
    -------------------------------------------------------------------------------
